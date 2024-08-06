@@ -4,6 +4,7 @@ const test = (description, fn) => {
     console.log(`✅${description}`);
   } catch (error) {
     console.log(`❌${description}`);
+    console.log(error);
     return;
   }
 };
@@ -11,7 +12,7 @@ const test = (description, fn) => {
 const expect = (actual) => {
   return {
     toBe(expected) {
-      if (actual !== expected) throw new Error(`Error: ${actual} is not equal to ${expected}`);
+      if (actual !== expected) throw new Error(`${actual} is not equal to ${expected}`);
     },
   };
 };
