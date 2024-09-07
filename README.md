@@ -1,7 +1,8 @@
-# Reimplementación Jest
-Pequeña reimplementación del framework de testing Jest.
+# Jest reimplementation
+Small reimplementation of the Jest testing framework, for learning purposes.
+Work in progress.
 
-Funciones:
+Current functions reimplemented:
 - Test()
 - Expect()
   - ToBe()
