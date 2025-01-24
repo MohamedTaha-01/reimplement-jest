@@ -1,5 +1,5 @@
 # Jest reimplementation
-Small reimplementation of the Jest testing framework, for learning purposes.
+Small reimplementation of the Jest testing framework.
 Work in progress.
 
 Current functions reimplemented:
